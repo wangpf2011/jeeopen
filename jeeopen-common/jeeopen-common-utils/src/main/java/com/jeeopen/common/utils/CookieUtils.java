@@ -14,7 +14,7 @@ import java.net.URLEncoder;
  * @title: CookieUtils.java
  * @package com.jeeopen.common.util
  * @description: Cookie工具类
-* @author: wangpf
+ * @author: wangpf
  * @date: 2017年5月11日 下午2:43:21
  * @version V1.0
  * @copyright: 2017 www.jeeopen.com Inc. All rights reserved.

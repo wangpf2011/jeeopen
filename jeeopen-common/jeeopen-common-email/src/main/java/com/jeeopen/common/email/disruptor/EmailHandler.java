@@ -10,7 +10,7 @@ import com.lmax.disruptor.WorkHandler;
  * @title: SmsHandler.java
  * @package cn.gov.gzst.common.disruptor.sms
  * @description: 内容消费者
-* @author: wangpf
+ * @author: wangpf
  * @date: 2017年6月7日 下午11:20:32
  * @version V1.0
  * @copyright: 2017 www.jeeopen.com Inc. All rights reserved.

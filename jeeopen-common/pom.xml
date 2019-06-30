@@ -13,5 +13,10 @@
   	<module>jeeopen-common-utils</module>
   	<module>jeeopen-common-oss</module>
   	<module>jeeopen-common-email</module>
+  	<module>jeeopen-common-quartz</module>
+  	<module>jeeopen-common-security</module>
+  	<module>jeeopen-common-base</module>
+  	<module>jeeopen-common-query</module>
+  	<module>jeeopen-common-mybatismvc</module>
   </modules>
 </project>

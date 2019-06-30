@@ -12,7 +12,7 @@ import java.io.Serializable;
  * @title: SerializationUtils.java
  * @package com.jeeopen.common.util
  * @description: 序列化工具
-* @author: wangpf
+ * @author: wangpf
  * @date: 2017年5月22日 下午9:25:14
  * @version V1.0
  * @copyright: 2017 www.jeeopen.com Inc. All rights reserved.

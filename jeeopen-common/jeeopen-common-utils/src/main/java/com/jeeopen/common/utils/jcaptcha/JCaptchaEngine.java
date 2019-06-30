@@ -24,7 +24,7 @@ import java.awt.*;
  * @title: JCaptchaEngine.java
  * @package com.jeeopen.modules.common.jcaptcha
  * @description: 生成验证码图片
-* @author: wangpf
+ * @author: wangpf
  * @date: 2017年6月26日 下午6:02:46
  * @version V1.0
  * @copyright: 2017 www.jeeopen.com Inc. All rights reserved.

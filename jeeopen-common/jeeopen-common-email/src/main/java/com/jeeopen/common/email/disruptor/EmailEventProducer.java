@@ -13,7 +13,7 @@ import javax.mail.internet.MimeMessage;
  * @title: LongEventProducer.java
  * @package cn.gov.gzst.email.common.disruptor.email
  * @description: 内容生产者
-* @author: wangpf
+ * @author: wangpf
  * @date: 2017年6月7日 下午11:19:15
  * @version V1.0
  * @copyright: 2017 www.jeeopen.com Inc. All rights reserved.

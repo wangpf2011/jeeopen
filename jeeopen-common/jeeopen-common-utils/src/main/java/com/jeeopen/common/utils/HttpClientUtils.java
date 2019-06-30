@@ -27,7 +27,7 @@ import org.apache.http.util.EntityUtils;
  * @package com.jeeopen.common.utils
  * @title:
  * @description: http请求
-* @author: wangpf
+ * @author: wangpf
  * @date: 2018/9/28 11:51
  * @copyright: 2017 www.jeeopen.com Inc. All rights reserved.
  */

@@ -7,7 +7,7 @@ package com.jeeopen.common.email.disruptor;
  * @title: LongEvent.java
  * @package cn.gov.gzst.common.disruptor.sms
  * @description: 内容传递
-* @author: wangpf
+ * @author: wangpf
  * @date: 2017年6月7日 下午11:17:40
  * @version V1.0
  * @copyright: 2017 www.jeeopen.com Inc. All rights reserved.

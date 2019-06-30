@@ -23,7 +23,7 @@ import java.io.InputStream;
  * @version V1.0
  * @title: IOSSClient.java
  * @description: 这里为本地操作
-* @author: wangpf
+ * @author: wangpf
  * @date: 2017年8月11日 下午9:55:00
  * @copyright: 2017 kjt.gzst.gov.cn Inc. All rights reserved.
  */

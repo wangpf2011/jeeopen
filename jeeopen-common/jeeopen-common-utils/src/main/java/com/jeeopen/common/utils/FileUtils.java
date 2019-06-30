@@ -8,7 +8,7 @@ import java.io.*;
  * @title:  FileUtil.java
  * @package com.jeeopen.common.util
  * @description: 文件操作类
-* @author: wangpf
+ * @author: wangpf
  * @date:   2017年6月27日 下午2017-08-29
  * @version V1.0
  * @copyright: 2017 www.jeeopen.com Inc. All rights reserved.

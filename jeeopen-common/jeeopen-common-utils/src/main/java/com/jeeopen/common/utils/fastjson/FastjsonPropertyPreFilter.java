@@ -13,7 +13,7 @@ import java.util.Set;
  * @title: PropertyPreFilterable.java
  * @package cn.gov.gzst.common.query.data
  * @description: JSON格式化输出
-* @author: wangpf
+ * @author: wangpf
  * @date: 2017年5月1日 下午9:43:09
  * @version V1.0
  * @copyright: 2017 www.jeeopen.com Inc. All rights reserved.

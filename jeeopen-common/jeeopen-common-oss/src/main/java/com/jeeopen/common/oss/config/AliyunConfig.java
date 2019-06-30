@@ -9,7 +9,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  * @package com.jeeopen.common.oss.config
  * @title:
  * @description: 阿里云配置
-* @author: wangpf
+ * @author: wangpf
  * @date: 2018/4/26 9:39
  * @copyright: 2017 www.jeeopen.com Inc. All rights reserved.
  */

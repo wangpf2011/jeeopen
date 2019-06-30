@@ -16,7 +16,7 @@ import java.util.Set;
  * @title:  ComplexPropertyPreFilter.java
  * @package com.jeeopen.common.util
  * @description: fastjson字段过滤
-* @author: wangpf
+ * @author: wangpf
  * @date:   2017年6月27日 下午2017-08-29
  * @version V1.0
  * @copyright: 2017 www.jeeopen.com Inc. All rights reserved.

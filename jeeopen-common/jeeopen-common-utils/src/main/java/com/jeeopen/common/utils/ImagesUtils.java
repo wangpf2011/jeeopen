@@ -9,7 +9,7 @@ import org.apache.commons.io.FilenameUtils;
  * @title: ImagesUtils.java
  * @package com.jeeopen.common.util
  * @description: 判断判断文件
-* @author: wangpf
+ * @author: wangpf
  * @date: 2017年5月22日 下午9:25:14
  * @version V1.0
  * @copyright: 2017 www.jeeopen.com Inc. All rights reserved.

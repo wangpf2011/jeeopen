@@ -10,7 +10,7 @@ import org.apache.commons.lang3.StringEscapeUtils;
  * @package cn.gov.gzst.common.filter.xss
  * @title:
  * @description: Fastjson中，对返回值的处理
-* @author: wangpf
+ * @author: wangpf
  * @date: 2018/4/24 15:14
  * @copyright: 2017 www.jeeopen.com Inc. All rights reserved.
  */

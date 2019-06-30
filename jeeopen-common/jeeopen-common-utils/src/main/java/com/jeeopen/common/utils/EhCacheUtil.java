@@ -10,7 +10,7 @@ import net.sf.ehcache.Element;
  * @title:  StringUtils.java
  * @package com.jeeopen.common.util
  * @description: 缓存基础类
-* @author: wangpf
+ * @author: wangpf
  * @date:   2017年6月27日 下午10:41:03
  * @version V1.0
  * @copyright: 2017  www.jeeopen.com Inc. All rights reserved.

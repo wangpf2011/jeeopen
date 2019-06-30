@@ -18,7 +18,7 @@ import java.util.Map;
  * @Title: FreeMarkerUtils.java
  * @Package com.jeeopen.core.utils
  * @Description: FreeMarker模版工具
-* @author: wangpf
+ * @author: wangpf
  * @date: 2017年3月4日 下午4:32:52
  * @version V1.0
  * @Copyright: 2017 www.jeeopen.com Inc. All rights reserved.
