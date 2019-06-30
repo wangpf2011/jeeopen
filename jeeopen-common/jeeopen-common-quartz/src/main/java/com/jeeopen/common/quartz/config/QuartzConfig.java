@@ -84,7 +84,7 @@ public class QuartzConfig implements ApplicationRunner {
             }*/
         }
         schedulerFactoryBean.setQuartzProperties(quartzProperties());
-        schedulerFactoryBean.setSchedulerName("OSWebScheduler");
+        schedulerFactoryBean.setSchedulerName("JeeOpenScheduler");
         // 启动时延期1秒开始任务
         schedulerFactoryBean.setStartupDelay(1);
         // Job接受applicationContext的成员变量名

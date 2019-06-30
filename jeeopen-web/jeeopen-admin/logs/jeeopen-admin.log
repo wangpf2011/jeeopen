@@ -1,0 +1,470 @@
+2019-06-30 22:15:02 [ INFO ] [ Version.java :27(<clinit>)]  HV000001: Hibernate Validator 5.1.1.Final
+2019-06-30 22:15:06 [ INFO ] [ StartupInfoLogger.java :50(logStarting)]  Starting WebBootApplication on LAPTOP-J0RSQORM with PID 4264 (D:\eclipse4.7\workspace_jeeopen\jeeopen\jeeopen-web\jeeopen-admin\target\classes started by wang in D:\eclipse4.7\workspace_jeeopen\jeeopen\jeeopen-web\jeeopen-admin)
+2019-06-30 22:15:06 [ INFO ] [ SpringApplication.java :659(logStartupProfileInfo)]  No active profile set, falling back to default profiles: default
+2019-06-30 22:15:13 [ WARN ] [ ClassPathMapperScanner.java :166(doScan)]  No MyBatis mapper was found in '[com.baomidou.springboot.mapper*]' package. Please check your configuration.
+2019-06-30 22:15:24 [ INFO ] [ DruidDataSource.java :669(init)]  {dataSource-1} inited
+2019-06-30 22:15:48 [ INFO ] [ PropertySourcedRequestMappingHandlerMapping.java :69(initHandlerMethods)]  Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-06-30 22:15:56 [ INFO ] [ StdSchedulerFactory.java :1208(instantiate)]  Using default implementation for ThreadExecutor
+2019-06-30 22:15:56 [ INFO ] [ SchedulerSignalerImpl.java :61(<init>)]  Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-06-30 22:15:56 [ INFO ] [ QuartzScheduler.java :229(<init>)]  Quartz Scheduler v.2.3.0 created.
+2019-06-30 22:15:56 [ INFO ] [ RAMJobStore.java :155(initialize)]  RAMJobStore initialized.
+2019-06-30 22:15:56 [ INFO ] [ QuartzScheduler.java :294(initialize)]  Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-06-30 22:15:56 [ INFO ] [ StdSchedulerFactory.java :1362(instantiate)]  Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-06-30 22:15:56 [ INFO ] [ StdSchedulerFactory.java :1366(instantiate)]  Quartz scheduler version: 2.3.0
+2019-06-30 22:15:56 [ INFO ] [ QuartzScheduler.java :2287(setJobFactory)]  JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@6cf62c34
+2019-06-30 22:15:58 [ INFO ] [ DocumentationPluginsBootstrapper.java :151(start)]  Context refreshed
+2019-06-30 22:15:58 [ INFO ] [ DocumentationPluginsBootstrapper.java :154(start)]  Found 1 custom documentation plugin(s)
+2019-06-30 22:15:59 [ INFO ] [ ApiListingReferenceScanner.java :41(scan)]  Scanning for api listing references
+2019-06-30 22:16:00 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:00 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:00 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:00 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_1
+2019-06-30 22:16:00 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_1
+2019-06-30 22:16:00 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_1
+2019-06-30 22:16:00 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:00 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_1
+2019-06-30 22:16:00 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:00 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:00 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:00 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:00 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:00 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:00 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:00 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:00 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:00 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_1
+2019-06-30 22:16:00 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_2
+2019-06-30 22:16:00 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:00 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingPOST_1
+2019-06-30 22:16:00 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingGET_1
+2019-06-30 22:16:00 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_2
+2019-06-30 22:16:00 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_2
+2019-06-30 22:16:00 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:00 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_2
+2019-06-30 22:16:00 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:00 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_2
+2019-06-30 22:16:00 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_3
+2019-06-30 22:16:00 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:00 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingGET_1
+2019-06-30 22:16:00 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingPOST_1
+2019-06-30 22:16:00 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingPOST_2
+2019-06-30 22:16:00 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingGET_2
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_3
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_3
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_3
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_4
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingGET_2
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingPOST_2
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_4
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_4
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_3
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_4
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_5
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingPOST_3
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingGET_3
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_5
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_5
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_4
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_5
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_6
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingGET_3
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingPOST_3
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_7
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: indexUsingGET_1
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: indexUsingGET_2
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: jqueryValidationEngineValidateUsingGET_1
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_6
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_6
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_5
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_6
+2019-06-30 22:16:01 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_8
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingPOST_4
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingGET_4
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_7
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_7
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_6
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_7
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_9
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingPOST_4
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingGET_4
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_8
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_8
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingGET_1
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_7
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_8
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: doSaveUsingPOST_1
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_10
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingPOST_5
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_9
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_9
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_8
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:01 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_9
+2019-06-30 22:16:01 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_11
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingGET_5
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingPOST_5
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_10
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_10
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxTreeListUsingGET_1
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxTreeListUsingHEAD_1
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxTreeListUsingPOST_1
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxTreeListUsingPUT_1
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxTreeListUsingPATCH_1
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxTreeListUsingDELETE_1
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxTreeListUsingOPTIONS_1
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxTreeListUsingTRACE_1
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_9
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: bootstrapTreeDataUsingGET_1
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: bootstrapTreeDataUsingHEAD_1
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: bootstrapTreeDataUsingPOST_1
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: bootstrapTreeDataUsingPUT_1
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: bootstrapTreeDataUsingPATCH_1
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: bootstrapTreeDataUsingDELETE_1
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: bootstrapTreeDataUsingOPTIONS_1
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: bootstrapTreeDataUsingTRACE_1
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_10
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_12
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: treeDataUsingGET_1
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: treeDataUsingHEAD_1
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: treeDataUsingPOST_1
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: treeDataUsingPUT_1
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: treeDataUsingPATCH_1
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: treeDataUsingDELETE_1
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: treeDataUsingOPTIONS_1
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: treeDataUsingTRACE_1
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingPOST_6
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingGET_5
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: uploadUsingPOST_1
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: uploadUsingPOST_2
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingGET_6
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingPOST_6
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_11
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_11
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_10
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_11
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_13
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingPOST_7
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingGET_6
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingPOST_7
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingGET_7
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_12
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_12
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_11
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_12
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_14
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingPOST_8
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingGET_7
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_13
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_13
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_12
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_13
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_15
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_14
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_14
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_13
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_14
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_16
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingPOST_8
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingGET_8
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_15
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_15
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_14
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_15
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_17
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingGET_8
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingPOST_9
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: indexUsingGET_3
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingPOST_9
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: addUsingGET_9
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_16
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_16
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: batchDeleteUsingPOST_15
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: deleteUsingPOST_16
+2019-06-30 22:16:02 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: exportUsingGET_1
+2019-06-30 22:16:02 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: exportUsingHEAD_1
+2019-06-30 22:16:02 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-30 22:16:02 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:02 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: exportUsingPOST_1
+2019-06-30 22:16:02 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-30 22:16:03 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:03 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: exportUsingPUT_1
+2019-06-30 22:16:03 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-30 22:16:03 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:03 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: exportUsingPATCH_1
+2019-06-30 22:16:03 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-30 22:16:03 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:03 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: exportUsingDELETE_1
+2019-06-30 22:16:03 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-30 22:16:03 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:03 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: exportUsingOPTIONS_1
+2019-06-30 22:16:03 [ WARN ] [ ParameterDataTypeReader.java :92(apply)]  Trying to infer dataType org.springframework.ui.ModelMap
+2019-06-30 22:16:03 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:03 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: exportUsingTRACE_1
+2019-06-30 22:16:03 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:03 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_18
+2019-06-30 22:16:03 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:03 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingGET_9
+2019-06-30 22:16:03 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: updateUsingPOST_10
+2019-06-30 22:16:03 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingGET_17
+2019-06-30 22:16:03 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: ajaxListUsingPOST_17
+2019-06-30 22:16:03 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:03 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:03 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:03 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:03 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:03 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:03 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:03 [ INFO ] [ SizeAnnotationPlugin.java :52(apply)]  searching for @size: false
+2019-06-30 22:16:03 [ INFO ] [ CachingOperationNameGenerator.java :40(startingWith)]  Generating unique operation named: listUsingGET_19
+2019-06-30 22:16:03 [ INFO ] [ QuartzScheduler.java :547(start)]  Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-06-30 22:16:03 [ INFO ] [ StartupInfoLogger.java :59(logStarted)]  Started WebBootApplication in 63.509 seconds (JVM running for 66.09)
+2019-06-30 22:16:10 [ INFO ] [ QuartzJobFactory.java :41(executeInternal)]  任务开始执行 - 名称：邮件修复发送定时任务 方法：run
+2019-06-30 22:16:10 [ INFO ] [ QuartzJobFactory.java :41(executeInternal)]  任务开始执行 - 名称：短信修复发送定时任务 方法：run
+2019-06-30 22:16:10 [ INFO ] [ QuartzJobFactory.java :46(executeInternal)]  任务执行结束 - 名称：邮件修复发送定时任务 耗时：479 毫秒
+2019-06-30 22:16:10 [ INFO ] [ QuartzJobFactory.java :46(executeInternal)]  任务执行结束 - 名称：短信修复发送定时任务 耗时：525 毫秒
+2019-06-30 22:16:20 [ INFO ] [ QuartzJobFactory.java :41(executeInternal)]  任务开始执行 - 名称：短信修复发送定时任务 方法：run
+2019-06-30 22:16:20 [ INFO ] [ QuartzJobFactory.java :41(executeInternal)]  任务开始执行 - 名称：邮件修复发送定时任务 方法：run
+2019-06-30 22:16:20 [ INFO ] [ QuartzJobFactory.java :46(executeInternal)]  任务执行结束 - 名称：短信修复发送定时任务 耗时：193 毫秒
+2019-06-30 22:16:20 [ INFO ] [ QuartzJobFactory.java :46(executeInternal)]  任务执行结束 - 名称：邮件修复发送定时任务 耗时：257 毫秒
+2019-06-30 22:16:25 [ INFO ] [ AbstractValidatingSessionManager.java :233(enableSessionValidation)]  Enabling session validation scheduler...
+2019-06-30 22:16:30 [ INFO ] [ QuartzJobFactory.java :41(executeInternal)]  任务开始执行 - 名称：短信修复发送定时任务 方法：run
+2019-06-30 22:16:30 [ INFO ] [ QuartzJobFactory.java :41(executeInternal)]  任务开始执行 - 名称：邮件修复发送定时任务 方法：run
+2019-06-30 22:16:30 [ INFO ] [ QuartzJobFactory.java :46(executeInternal)]  任务执行结束 - 名称：短信修复发送定时任务 耗时：211 毫秒
+2019-06-30 22:16:30 [ INFO ] [ QuartzJobFactory.java :46(executeInternal)]  任务执行结束 - 名称：邮件修复发送定时任务 耗时：297 毫秒
+2019-06-30 22:16:39 [ ERROR ] [ AddressUtils.java :37(getRealAddressByIP)]  获取地理位置异常 0:0:0:0:0:0:0:1
+2019-06-30 22:16:40 [ INFO ] [ QuartzJobFactory.java :41(executeInternal)]  任务开始执行 - 名称：短信修复发送定时任务 方法：run
+2019-06-30 22:16:40 [ INFO ] [ QuartzJobFactory.java :41(executeInternal)]  任务开始执行 - 名称：邮件修复发送定时任务 方法：run
+2019-06-30 22:16:40 [ INFO ] [ QuartzJobFactory.java :46(executeInternal)]  任务执行结束 - 名称：短信修复发送定时任务 耗时：55 毫秒
+2019-06-30 22:16:40 [ INFO ] [ QuartzJobFactory.java :46(executeInternal)]  任务执行结束 - 名称：邮件修复发送定时任务 耗时：126 毫秒
+2019-06-30 22:16:50 [ INFO ] [ QuartzJobFactory.java :41(executeInternal)]  任务开始执行 - 名称：短信修复发送定时任务 方法：run
+2019-06-30 22:16:50 [ INFO ] [ QuartzJobFactory.java :41(executeInternal)]  任务开始执行 - 名称：邮件修复发送定时任务 方法：run
+2019-06-30 22:16:50 [ INFO ] [ QuartzJobFactory.java :46(executeInternal)]  任务执行结束 - 名称：短信修复发送定时任务 耗时：82 毫秒
+2019-06-30 22:16:50 [ INFO ] [ QuartzJobFactory.java :46(executeInternal)]  任务执行结束 - 名称：邮件修复发送定时任务 耗时：149 毫秒
+2019-06-30 22:17:00 [ INFO ] [ QuartzJobFactory.java :41(executeInternal)]  任务开始执行 - 名称：短信修复发送定时任务 方法：run
+2019-06-30 22:17:00 [ INFO ] [ QuartzJobFactory.java :41(executeInternal)]  任务开始执行 - 名称：邮件修复发送定时任务 方法：run
+2019-06-30 22:17:00 [ INFO ] [ QuartzJobFactory.java :46(executeInternal)]  任务执行结束 - 名称：短信修复发送定时任务 耗时：189 毫秒
+2019-06-30 22:17:00 [ INFO ] [ QuartzJobFactory.java :46(executeInternal)]  任务执行结束 - 名称：邮件修复发送定时任务 耗时：222 毫秒
+2019-06-30 22:17:10 [ INFO ] [ QuartzJobFactory.java :41(executeInternal)]  任务开始执行 - 名称：短信修复发送定时任务 方法：run
+2019-06-30 22:17:10 [ INFO ] [ QuartzJobFactory.java :41(executeInternal)]  任务开始执行 - 名称：邮件修复发送定时任务 方法：run
+2019-06-30 22:17:10 [ INFO ] [ QuartzJobFactory.java :46(executeInternal)]  任务执行结束 - 名称：短信修复发送定时任务 耗时：174 毫秒
+2019-06-30 22:17:10 [ INFO ] [ QuartzJobFactory.java :46(executeInternal)]  任务执行结束 - 名称：邮件修复发送定时任务 耗时：227 毫秒
+2019-06-30 22:17:20 [ INFO ] [ QuartzJobFactory.java :41(executeInternal)]  任务开始执行 - 名称：短信修复发送定时任务 方法：run
+2019-06-30 22:17:20 [ INFO ] [ QuartzJobFactory.java :41(executeInternal)]  任务开始执行 - 名称：邮件修复发送定时任务 方法：run
+2019-06-30 22:17:20 [ INFO ] [ QuartzJobFactory.java :46(executeInternal)]  任务执行结束 - 名称：短信修复发送定时任务 耗时：106 毫秒
+2019-06-30 22:17:20 [ INFO ] [ QuartzJobFactory.java :46(executeInternal)]  任务执行结束 - 名称：邮件修复发送定时任务 耗时：520 毫秒
+2019-06-30 22:17:30 [ INFO ] [ QuartzJobFactory.java :41(executeInternal)]  任务开始执行 - 名称：短信修复发送定时任务 方法：run
+2019-06-30 22:17:30 [ INFO ] [ QuartzJobFactory.java :41(executeInternal)]  任务开始执行 - 名称：邮件修复发送定时任务 方法：run
+2019-06-30 22:17:30 [ INFO ] [ QuartzJobFactory.java :46(executeInternal)]  任务执行结束 - 名称：短信修复发送定时任务 耗时：47 毫秒
+2019-06-30 22:17:30 [ INFO ] [ QuartzJobFactory.java :46(executeInternal)]  任务执行结束 - 名称：邮件修复发送定时任务 耗时：83 毫秒
+2019-06-30 22:17:40 [ INFO ] [ QuartzJobFactory.java :41(executeInternal)]  任务开始执行 - 名称：邮件修复发送定时任务 方法：run
+2019-06-30 22:17:40 [ INFO ] [ QuartzJobFactory.java :41(executeInternal)]  任务开始执行 - 名称：短信修复发送定时任务 方法：run
+2019-06-30 22:17:40 [ INFO ] [ QuartzJobFactory.java :46(executeInternal)]  任务执行结束 - 名称：邮件修复发送定时任务 耗时：151 毫秒
+2019-06-30 22:17:40 [ INFO ] [ QuartzJobFactory.java :46(executeInternal)]  任务执行结束 - 名称：短信修复发送定时任务 耗时：153 毫秒
+2019-06-30 22:17:50 [ INFO ] [ QuartzJobFactory.java :41(executeInternal)]  任务开始执行 - 名称：短信修复发送定时任务 方法：run
+2019-06-30 22:17:50 [ INFO ] [ QuartzJobFactory.java :41(executeInternal)]  任务开始执行 - 名称：邮件修复发送定时任务 方法：run
+2019-06-30 22:17:50 [ INFO ] [ QuartzJobFactory.java :46(executeInternal)]  任务执行结束 - 名称：短信修复发送定时任务 耗时：179 毫秒
+2019-06-30 22:17:50 [ INFO ] [ QuartzJobFactory.java :46(executeInternal)]  任务执行结束 - 名称：邮件修复发送定时任务 耗时：242 毫秒
+2019-06-30 22:18:00 [ INFO ] [ QuartzJobFactory.java :41(executeInternal)]  任务开始执行 - 名称：短信修复发送定时任务 方法：run
+2019-06-30 22:18:00 [ INFO ] [ QuartzJobFactory.java :41(executeInternal)]  任务开始执行 - 名称：邮件修复发送定时任务 方法：run
+2019-06-30 22:18:00 [ INFO ] [ QuartzJobFactory.java :46(executeInternal)]  任务执行结束 - 名称：短信修复发送定时任务 耗时：82 毫秒
+2019-06-30 22:18:00 [ INFO ] [ QuartzJobFactory.java :46(executeInternal)]  任务执行结束 - 名称：邮件修复发送定时任务 耗时：140 毫秒
+2019-06-30 22:18:10 [ INFO ] [ QuartzJobFactory.java :41(executeInternal)]  任务开始执行 - 名称：短信修复发送定时任务 方法：run
+2019-06-30 22:18:10 [ INFO ] [ QuartzJobFactory.java :41(executeInternal)]  任务开始执行 - 名称：邮件修复发送定时任务 方法：run
+2019-06-30 22:18:10 [ INFO ] [ QuartzJobFactory.java :46(executeInternal)]  任务执行结束 - 名称：短信修复发送定时任务 耗时：49 毫秒
+2019-06-30 22:18:10 [ INFO ] [ QuartzJobFactory.java :46(executeInternal)]  任务执行结束 - 名称：邮件修复发送定时任务 耗时：81 毫秒
+2019-06-30 22:18:20 [ INFO ] [ QuartzJobFactory.java :41(executeInternal)]  任务开始执行 - 名称：短信修复发送定时任务 方法：run
+2019-06-30 22:18:20 [ INFO ] [ QuartzJobFactory.java :41(executeInternal)]  任务开始执行 - 名称：邮件修复发送定时任务 方法：run
+2019-06-30 22:18:20 [ INFO ] [ QuartzJobFactory.java :46(executeInternal)]  任务执行结束 - 名称：短信修复发送定时任务 耗时：57 毫秒
+2019-06-30 22:18:20 [ INFO ] [ QuartzJobFactory.java :46(executeInternal)]  任务执行结束 - 名称：邮件修复发送定时任务 耗时：106 毫秒

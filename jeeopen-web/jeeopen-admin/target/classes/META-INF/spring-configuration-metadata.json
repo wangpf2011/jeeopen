@@ -1,0 +1,157 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.jeeopen.web.config.autoconfigure.ShiroConfigProperties",
+      "name": "jeeopen.shiro",
+      "type": "com.jeeopen.web.config.autoconfigure.ShiroConfigProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.jeeopen.web.config.autoconfigure.ShiroConfigProperties",
+      "name": "jeeopen.shiro.active-session-cache-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jeeopen.web.config.autoconfigure.ShiroConfigProperties",
+      "name": "jeeopen.shiro.credentials-hash-algorithm-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jeeopen.web.config.autoconfigure.ShiroConfigProperties",
+      "name": "jeeopen.shiro.credentials-hash-iterations",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.jeeopen.web.config.autoconfigure.ShiroConfigProperties",
+      "name": "jeeopen.shiro.credentials-stored-credentials-hex-encoded",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.jeeopen.web.config.autoconfigure.ShiroConfigProperties",
+      "name": "jeeopen.shiro.default-success-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jeeopen.web.config.autoconfigure.ShiroConfigProperties",
+      "name": "jeeopen.shiro.filter-chain-definitions",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jeeopen.web.config.autoconfigure.ShiroConfigProperties",
+      "name": "jeeopen.shiro.jcaptcha-enable",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.jeeopen.web.config.autoconfigure.ShiroConfigProperties",
+      "name": "jeeopen.shiro.jcaptcha-error-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jeeopen.web.config.autoconfigure.ShiroConfigProperties",
+      "name": "jeeopen.shiro.login-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jeeopen.web.config.autoconfigure.ShiroConfigProperties",
+      "name": "jeeopen.shiro.logout-success-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jeeopen.web.config.autoconfigure.ShiroConfigProperties",
+      "name": "jeeopen.shiro.rememeber-me-cookie-base64-cipher-key",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jeeopen.web.config.autoconfigure.ShiroConfigProperties",
+      "name": "jeeopen.shiro.rememeber-me-cookie-domain",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jeeopen.web.config.autoconfigure.ShiroConfigProperties",
+      "name": "jeeopen.shiro.rememeber-me-cookie-http-only",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.jeeopen.web.config.autoconfigure.ShiroConfigProperties",
+      "name": "jeeopen.shiro.rememeber-me-cookie-max-age",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.jeeopen.web.config.autoconfigure.ShiroConfigProperties",
+      "name": "jeeopen.shiro.rememeber-me-cookie-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jeeopen.web.config.autoconfigure.ShiroConfigProperties",
+      "name": "jeeopen.shiro.rememeber-me-cookie-path",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jeeopen.web.config.autoconfigure.ShiroConfigProperties",
+      "name": "jeeopen.shiro.session-global-session-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.jeeopen.web.config.autoconfigure.ShiroConfigProperties",
+      "name": "jeeopen.shiro.session-id-cookie-domain",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jeeopen.web.config.autoconfigure.ShiroConfigProperties",
+      "name": "jeeopen.shiro.session-id-cookie-http-only",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.jeeopen.web.config.autoconfigure.ShiroConfigProperties",
+      "name": "jeeopen.shiro.session-id-cookie-max-age",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.jeeopen.web.config.autoconfigure.ShiroConfigProperties",
+      "name": "jeeopen.shiro.session-id-cookie-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jeeopen.web.config.autoconfigure.ShiroConfigProperties",
+      "name": "jeeopen.shiro.session-id-cookie-path",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jeeopen.web.config.autoconfigure.ShiroConfigProperties",
+      "name": "jeeopen.shiro.session-validation-interval",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.jeeopen.web.config.autoconfigure.ShiroConfigProperties",
+      "name": "jeeopen.shiro.unauthorized-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jeeopen.web.config.autoconfigure.ShiroConfigProperties",
+      "name": "jeeopen.shiro.user-force-logout-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jeeopen.web.config.autoconfigure.ShiroConfigProperties",
+      "name": "jeeopen.shiro.user-locked-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jeeopen.web.config.autoconfigure.ShiroConfigProperties",
+      "name": "jeeopen.shiro.user-notfound-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jeeopen.web.config.autoconfigure.ShiroConfigProperties",
+      "name": "jeeopen.shiro.user-password-show-captcha-retry-count",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.jeeopen.web.config.autoconfigure.ShiroConfigProperties",
+      "name": "jeeopen.shiro.user-unknown-error-url",
+      "type": "java.lang.String"
+    }
+  ]
+}

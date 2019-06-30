@@ -18,5 +18,6 @@
   	<module>jeeopen-common-base</module>
   	<module>jeeopen-common-query</module>
   	<module>jeeopen-common-mybatismvc</module>
+  	<module>jeeopen-common-sms</module>
   </modules>
 </project>

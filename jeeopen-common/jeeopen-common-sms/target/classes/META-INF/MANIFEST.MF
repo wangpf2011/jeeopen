@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: jeeopen-common-sms
+Implementation-Version: 1.0.0.RELEASE
+Built-By: wang
+Implementation-Vendor-Id: com.jeeopen
+Build-Jdk: 1.8.0_181
+Implementation-URL: http://maven.apache.org/jeeopen-common/jeeopen-com
+ mon-sms
+Created-By: Maven Integration for Eclipse
+

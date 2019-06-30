@@ -9,4 +9,10 @@
   <packaging>pom</packaging>
   <name>jeeopen-web</name>
   <description>jeeopen-web</description>
+  <modules>
+  	<module>jeeopen-admin</module>
+  	<module>jeeopen-web-static</module>
+  	<module>jeeopen-web-tag</module>
+  	<module>jeeopen-web-beetltag</module>
+  </modules>
 </project>

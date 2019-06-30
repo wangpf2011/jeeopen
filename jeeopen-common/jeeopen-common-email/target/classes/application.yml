@@ -5,7 +5,7 @@ server:
 spring:
   mail:
     host: smtp.exmail.qq.com
-    username: osweb@osweb.cn
+    username: jeeopen@jeeopen.com
     password: 您的密码
     properties:
       mail:

@@ -2,7 +2,7 @@ package com.jeeopen.common.quartz.exception;
 
 /**
  * 定时异常
- * Created by 王存见 on 2017/8/11.
+ * Created by wangpf on 2017/8/11.
  */
 public class QuartzException extends RuntimeException {
 

@@ -32,13 +32,10 @@
         <itextpdf.version>5.5.13</itextpdf.version>
         <!--字体-->
         <itext-asian.version>5.2.0</itext-asian.version>
-
         <!-- aspose版本 -->
         <aspose.version>14.9.0</aspose.version>
-
         <!--easypoi 版本-->
         <easypoi.version>3.2.0</easypoi.version>
-
         <!--j2cache版本-->
         <j2cache.version>2.7.0-release</j2cache.version>
     </properties>
@@ -107,7 +104,6 @@
             <artifactId>guava</artifactId>
             <version>${guava.version}</version>
         </dependency>
-
 
         <!-- jackson json -->
         <dependency>

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: jeeopen-web-tag
+Implementation-Version: 1.0.0.RELEASE
+Built-By: wang
+Implementation-Vendor-Id: com.jeeopen
+Build-Jdk: 1.8.0_181
+Implementation-URL: http://maven.apache.org/jeeopen-web/jeeopen-web-ta
+ g
+Created-By: Maven Integration for Eclipse
+
