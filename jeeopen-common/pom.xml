@@ -12,5 +12,6 @@
   <modules>
   	<module>jeeopen-common-utils</module>
   	<module>jeeopen-common-oss</module>
+  	<module>jeeopen-common-email</module>
   </modules>
 </project>
